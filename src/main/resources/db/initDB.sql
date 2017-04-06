@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS main;
+
+CREATE TABLE main
+(
+    aPoint VARCHAR(4) NOT NULL,
+    seqNumber VARCHAR(12) NOT NULL PRIMARY KEY,
+    carVariant VARCHAR(18) NOT NULL,
+    series VARCHAR(4) NOT NULL,
+    chassis VARCHAR(6) NOT NULL,
+    predSeqNumber VARCHAR(12) NOT NULL,
+    predTrimInDateTime TIMESTAMP NOT NULL,
+    achievDateTime TIMESTAMP NOT NULL,
+    w225 VARCHAR(2) NOT NULL,
+    w224 VARCHAR(2) NOT NULL
+);
