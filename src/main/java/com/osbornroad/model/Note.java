@@ -1,10 +1,9 @@
-package com.gmail.osbornroad.model;
+package com.osbornroad.model;
 
+import javax.persistence.Entity;
 import java.time.LocalDateTime;
 
-/**
- * Created by User on 06.04.2017.
- */
+@Entity
 public class Note {
 
     /*

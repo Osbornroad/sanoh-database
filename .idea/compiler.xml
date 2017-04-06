@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sanoh-database" target="1.5" />
+      <module name="sanoh-database" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
